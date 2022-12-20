@@ -1,0 +1,91 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#banner {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #002868;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner>h1 {
+    text-align: center;
+}
+
+#nav {
+    width: 100%;
+    background-color: #B31942;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    text-align: center;
+}
+
+#nav>a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 2rem;
+}
+
+main {
+    align-self: center;
+    max-width: 75%;
+    padding-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    padding-left: 2.5rem;
+}
+
+p {
+    padding-left: 5rem;
+    font-size: 1.15rem;
+}
+
+div {
+    position: relative;
+}
+
+blockquote {
+    max-width: 60%;
+    margin-left: 10rem;
+}
+
+cite {
+    font-style: italic;
+}
+
+#bill-of-rights {
+    position: absolute;
+    max-width: 200px;
+    font-size: small;
+    top: 45%;
+    right: -250px;
+}
+
+ul {
+    list-style: circle;
+    font-size: 1.15rem;
+}
+
+#quiz {
+
+}
